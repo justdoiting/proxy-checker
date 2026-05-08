@@ -12,7 +12,7 @@ require (
 	github.com/klauspost/compress v1.18.6
 	github.com/lmittmann/tint v1.1.3
 	github.com/mattn/go-colorable v0.1.14
-	github.com/vernesong/mihomo Prerelease-Alpha
+	github.com/metacubex/mihomo Prerelease-Alpha
 	github.com/minio/minio-go/v7 v7.1.0
 	github.com/oschwald/maxminddb-golang/v2 v2.2.0
 	github.com/robfig/cron/v3 v3.0.1
@@ -159,3 +159,4 @@ require (
 	google.golang.org/protobuf v1.36.11 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
+replace github.com/metacubex/mihomo => github.com/vernesong/mihomo Prerelease-Alpha
