@@ -3,16 +3,16 @@ module github.com/sinspired/subs-check
 go 1.25.5
 
 require (
-	github.com/Masterminds/semver/v3 v3.4.0
+	github.com/Masterminds/semver/v3 v3.5.0
 	github.com/docker/go-units v0.5.0
-	github.com/fsnotify/fsnotify v1.9.0
-	github.com/gin-gonic/gin v1.11.0
+	github.com/fsnotify/fsnotify v1.10.1
+	github.com/gin-gonic/gin v1.12.0
 	github.com/goccy/go-yaml v1.19.2
 	github.com/juju/ratelimit v1.0.2
-	github.com/klauspost/compress v1.18.3
-	github.com/lmittmann/tint v1.1.2
+	github.com/klauspost/compress v1.18.6
+	github.com/lmittmann/tint v1.1.3
 	github.com/mattn/go-colorable v0.1.14
-	github.com/metacubex/mihomo v1.19.19
+	github.com/vernesong/mihomo v1.19.19
 	github.com/minio/minio-go/v7 v7.0.98
 	github.com/oschwald/maxminddb-golang/v2 v2.1.1
 	github.com/robfig/cron/v3 v3.0.1
