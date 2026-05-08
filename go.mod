@@ -12,7 +12,7 @@ require (
 	github.com/klauspost/compress v1.18.6
 	github.com/lmittmann/tint v1.1.3
 	github.com/mattn/go-colorable v0.1.14
-	github.com/metacubex/mihomo v1.19.25-0.20260508093744-c98e67a1c046
+	github.com/metacubex/mihomo Prerelease-Alpha
 	github.com/minio/minio-go/v7 v7.1.0
 	github.com/oschwald/maxminddb-golang/v2 v2.2.0
 	github.com/robfig/cron/v3 v3.0.1
@@ -167,4 +167,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/metacubex/mihomo => github.com/vernesong/mihomo v1.19.10-0.20260507095546-65f09ab2f8f1
+replace github.com/metacubex/mihomo => github.com/vernesong/mihomo Prerelease-Alpha
