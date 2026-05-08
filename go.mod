@@ -17,7 +17,7 @@ require (
 	github.com/oschwald/maxminddb-golang/v2 v2.2.0
 	github.com/robfig/cron/v3 v3.0.1
 	github.com/samber/lo v1.53.0
-	github.com/shirou/gopsutil/v4 v4.24.4
+	github.com/shirou/gopsutil/v4 v4.26.4
 	github.com/sinspired/checkip v0.3.4
 	github.com/sinspired/go-selfupdate v0.0.0-20260104181938-4b5a1c65f213
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1
