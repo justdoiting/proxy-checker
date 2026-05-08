@@ -1,7 +1,7 @@
 name: Release
 
 on:
-  workflow_dispatch:   # 手动触发
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -24,11 +24,18 @@ jobs:
           go get github.com/metacubex/mihomo@Prerelease-Alpha
           go mod tidy
 
-      - name: Run GoReleaser (Snapshot)
+      - name: Run GoReleaser
         uses: goreleaser/goreleaser-action@v6
         with:
           distribution: goreleaser
           version: latest
-          args: release --clean --snapshot
+          args: release --clean
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload Windows EXE as Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: subs-check-windows
+          path: dist/*Windows*.zip
+          if-no-files-found: warn
